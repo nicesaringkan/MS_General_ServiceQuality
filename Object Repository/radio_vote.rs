@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>radio_vote</name>
+   <tag></tag>
+   <elementGuidId>528cfb3a-8d8b-4119-8c70-915a6460f646</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;sub_question&quot;][${rowNo}]/descendant::span[@class='checkmark'][${vote}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;sub_question&quot;][${rowNo}]/descendant::span[@class='checkmark'][${vote}]</value>
+   </webElementProperties>
+</WebElementEntity>

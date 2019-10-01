@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestClose,Chrome 76.0.3809.132,,,2019-09-18 15:28:16,2019-09-18 15:28:33,17.465s,INCOMPLETE
+,,,,,,,
+Test Cases/MS_General_ServiceQuality,Chrome 76.0.3809.132,,,2019-09-18 15:28:16,2019-09-18 15:28:33,17.252s,ERROR
+"closeC = "" """,Chrome 76.0.3809.132,,,2019-09-18 15:28:17,2019-09-18 15:28:17,0.001s,PASSED
+"xlsData = findTestData(""MS_General_ServiceQuality"")",Chrome 76.0.3809.132,,,2019-09-18 15:28:17,2019-09-18 15:28:17,0.577s,PASSED
+"btnNext = findTestObject(""Object Repository/btn_next"")",Chrome 76.0.3809.132,,,2019-09-18 15:28:17,2019-09-18 15:28:17,0.107s,PASSED
+"for ([row = 1, row <= xlsData.getRowNumbers(), (row++)])",Chrome 76.0.3809.132,,,2019-09-18 15:28:17,2019-09-18 15:28:33,16.190s,PASSED
